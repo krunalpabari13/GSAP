@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+    /* overflow-y: hidden; */
+}
+.box1{
+    width: 100vw;
+    height: 125vh;
+    /* position: absolute; */
+    background-color: blue;
+}
+.box2{
+    /* position: absolute; */
+    width: 100vw;
+    height: 125vh;
+    background-color: cyan;
+}
+.box3{
+    /* position: absolute; */
+    width: 100vw;
+    height: 125vh;
+    background-color: green;
+}
+.box4{
+    width: 100vw;
+    height: 125vh;
+    background-color: darkblue;
+}
+.box5{
+    width: 100vw;
+    height: 125vh;
+    background-color: rgb(88, 88, 168);
+}
+.box6{
+    width: 100vw;
+    height: 125vh;
+    background-color: orange;
+}
+.box7{
+    width: 100vw;
+    height: 125vh;
+    background-color: maroon;
+}
+.maincontainer{
+    position: absolute;
+}
+@media only screen and(max-width:1400)
+{   html{
+    font-size: 62.5%;
+}
+}
