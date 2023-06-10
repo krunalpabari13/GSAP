@@ -10,7 +10,7 @@ ScrollTrigger.create({
     end:'bottom top',
     pinSpacing:false,
     // scrub:true,
-    markers:{startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20}
+
 })
 t1.to(".text",{visibility:'hidden'})
 t1.to("#text1",{visibility:'visible'})
@@ -30,7 +30,7 @@ ScrollTrigger.create({
     end:'bottom top',
     pinSpacing:false,
     // scrub:true,
-    markers:{startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20}
+
 })
 t2.to(".text",{visibility:'hidden'})
 t2.to("#text2",{visibility:'visible'})
@@ -54,7 +54,6 @@ ScrollTrigger.create({
     end:'bottom top',
     pinSpacing:false,
     // scrub:true,
-    markers:{startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20}
 })
 tl.to(".text",{visibility:'hidden'})
 
@@ -85,7 +84,7 @@ ScrollTrigger.create({
     end:'bottom top',
    pinSpacing:false,
     // scrub:true,
-    markers:{startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20}
+
 })
 tl2.to(".text",{visibility:'hidden'})
 
@@ -108,7 +107,7 @@ ScrollTrigger.create({
     end:'bottom top',
     pinSpacing:false,
     // scrub:true,
-    markers:{startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20}
+
 })
 t3.to(".text",{visibility:'hidden'})
 
@@ -139,7 +138,7 @@ ScrollTrigger.create({
     end:'bottom top',
    pinSpacing:false,
     // scrub:true,
-    markers:{startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20}
+
 })
 t4.to(".text",{visibility:'hidden'})
 
@@ -160,7 +159,7 @@ ScrollTrigger.create({
     end:'bottom top',
    pinSpacing:false,
     // scrub:true,
-    markers:{startColor: "black", endColor: "black", fontSize: "18px", fontWeight: "bold", indent: 20}
+
 })
 t5.to(".text",{visibility:'hidden'})
 
