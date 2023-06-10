@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="global.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -13,172 +14,318 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <div class="maincontainer">
-
-      
-      <div>
-        <div class="position-relative">
-          <div class="box2 box" onclick="handlesubmit()">
-            <img
-              src="/images/nexgtv1.png "
-              class="position-absolute "
-              id="nexgtv1"
-              style="opacity: 0; height: 70rem; margin-left: 65rem;"
-            />
-            <img src="/images/nexgtv2.png" class="position-absolute"
-            id="nexgtv2" style="right: 0; opacity: 0;">
+  <body>    
+    <div class="row ">
+      <div class="col6">
+        <div class="container1">
+          <div class="leftpanel fixed-top" > 
+            <div class="position-absolute text text-white mb-5 ms-5" id="text1" style="bottom: 0;">
+            <h1>ABC 123</h1>
+            <h2>We are best developers in the market</h2>
+            <h2> We are currently Hiring</h2>
           </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="position-relative">
-          <div class="box4 box" onclick="handlesubmit()">
-            <img
-              src="/images/blockchain1.png "
-              class="position-absolute "
-              id="blockchain1"
-              style="opacity: 0;  margin-left: 45rem;"
-            />
-            <img src="/images/blockchain2.png" class="position-absolute"
-            id="blockchain2" style="right: 0; opacity: 0;">
+          <div class="position-absolute text text-white mb-5 ms-5" id="text2" style="bottom: 0;">
+            <h1>ABC 456</h1>
+            <h2>We are best developers in the market</h2>
+            <h2> We are currently Hiring</h2>
           </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="position-relative">
-          <div class="box1 box" onclick="handlesubmit()">
-            <img
-              src="/images/nasafitness.png "
-              class="position-absolute "
-              id="nasafitness1"
-              style="opacity: 0; height: 70rem; ;"
-            />
-            <img src="/images/nasafigure.png" class="position-absolute"
-            id="nasafitness2" style="right: 0; opacity: 0;">
+        
+          <div class="position-absolute text text-white mb-5 ms-5" id="text3" style="bottom: 0;">
+            <h1>ABC 789</h1>
+            <h2>We are best developers in the market</h2>
+            <h2> We are currently Hiring</h2>
           </div>
-        </div>
-      </div>
-
-
-
-       <div>
-        <div class="position-relative">
-          <div class="box3 box">
-            <img
-              src="/images/dombox.png "
-              class="position-absolute"
-              id="dombox"
-              style="opacity: 0;"
-            />
-            <img
-              src="/images/bun1.png"
-              class="me-5 pe-5 position-absolute"
-              id="bun1"
-              style="right: 0;opacity: 0;"
-            />
-            <img
-              src="/images/bun2.png"
-              class="position-absolute mb-5 pb-5 "
-              id="bun2"
-              style="bottom: 0; right: 0;opacity: 0;"
-            />
-            <img
-              src="/images/dommob1.png"
-              class="position-absolute ms-5 ps-5"
-              id="dommob1"
-              style="bottom: 0;opacity: 0;"
-            />
-            <div class="d-flex justify-content-center align-items-center">
-              <img src="/images/dombox2.png" class="" id="dommob2" " style="opacity: 0;">
+        
+          <div class="position-absolute text text-white mb-5 ms-5" id="text4" style="bottom: 0;">
+            <h1>ABC 2345</h1>
+            <h2>We are best developers in the market</h2>
+            <h2> We are currently Hiring</h2>
+          </div>
+        
+          <div class="position-absolute text text-white mb-5 ms-5" id="text5" style="bottom: 0;">
+            <h1>ABC 6789</h1>
+            <h2>We are best developers in the market</h2>
+            <h2> We are currently Hiring</h2>
+          </div>
+        
+        
+          <div class="position-absolute text text-white mb-5 ms-5" id="text6" style="bottom: 0;">
+            <h1>ABC 123123</h1>
+            <h2>We are best developers in the market</h2>
+            <h2> We are currently Hiring</h2>
+          </div>
+        
+        
+          <div class="position-absolute text text-white mb-5 ms-5" id="text7" style="bottom: 0;">
+            <h1>ABC 123456</h1>
+            <h2>We are best developers in the market</h2>
+            <h2> We are currently Hiring</h2>
+          </div>
+        
+            <div>
+              <div class="position-absolute" style="margin-left: 55rem;">
+        
+                <div class="round mt-5">
+                
+                  <svg version="1.1" id="transring" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 414 414"
+                  style="enable-background:new 0 0 414 414; background: transparent;" xml:space="preserve">
+                  <text class="text" x="50%" y="50%" id="text1" text-anchor="middle" alignment-baseline="middle" >25+Million Downloads</text>
+                  <text class="text" x="50%" y="50%" id="text2" text-anchor="middle" alignment-baseline="middle" >Blockchain Revolution </text>
+                  <text class="text" x="50%" y="50%" id="text3" text-anchor="middle" alignment-baseline="middle" >NASA</text>
+                  <text class="text" x="50%" y="50%" id="text4" text-anchor="middle" alignment-baseline="middle" >UX Strategy</text>
+                  <text class="text" x="50%" y="50%" id="text5" text-anchor="middle" alignment-baseline="middle" >TextHeadling </text>
+                  <text class="text" x="50%" y="50%" id="text6" text-anchor="middle" alignment-baseline="middle" >TextHeadline </text>
+                  <text class="text" x="50%" y="50%" id="text7" text-anchor="middle" alignment-baseline="middle" >Easy Asia </text>
+        
+                  <path id="Transparent_Ring" class="transrg"
+                      style="opacity:0.4;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;enable-background:new"
+                      d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173c-47.8,0-91-19.4-122.3-50.7"></path>
+                  <path id="Opaque_Ring" class="transrgwht" stroke-dasharray="0,1000"
+                      style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 50; stroke-dasharray: 10, 1000;"
+                      d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173c-47.8,0-91-19.4-122.3-50.7"></path>
+        
+                  <g id="Dots1" class="dots-nav">
+                      <g>
+                          <path class="dotsst dotsfill1" style="fill: rgb(0, 146, 255); opacity: 1;"
+                              d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"></path>
+                      </g>
+                      <g>
+                          <path class="dotsstro1"
+                              style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                              d="M84,80c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z"></path>
+                      </g>
+                  </g>
+                  <g id="Dots2" class="dots-nav">
+                      <g>
+                          <path class="dotsst dotsfill2" style="fill: rgb(0, 146, 255); opacity: 1;"
+                              d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8"></path>
+                      </g>
+                      <g>
+                          <path class="dotsstro2"
+                              style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                              d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8"></path>
+                      </g>
+                  </g>
+                  <g id="Dots3" class="dots-nav">
+                      <g>
+                          <path class="dotsst dotsfill3" style="fill: rgb(0, 146, 255); opacity: 1;"
+                              d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332"></path>
+                      </g>
+                      <g>
+                          <path class="dotsstro3"
+                              style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                              d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332"></path>
+                      </g>
+                  </g>
+                  <g id="Dots4" class="dots-nav">
+                      <g>
+                          <path class="dotsst dotsfill4" style="fill: rgb(0, 146, 255); opacity: 1;"
+                              d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380"></path>
+                      </g>
+                      <g>
+                          <path class="dotsstro4"
+                              style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                              d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380"></path>
+                      </g>
+                  </g>
+                  <g id="Dots5" class="dots-nav">
+                      <g>
+                          <path class="dotsst dotsfill5" style="fill: rgb(0, 146, 255); opacity: 1;"
+                              d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335"></path>
+                      </g>
+                      <g>
+                          <path class="dotsstro5"
+                              style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                              d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335"></path>
+                      </g>
+                  </g>
+                  <g id="Dots6" class="dots-nav">
+                      <g>
+                          <path class="dotsst dotsfill6" style="fill: rgb(0, 146, 255); opacity: 1;"
+                              d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210"></path>
+                      </g>
+                      <g>
+                          <path class="dotsstro6"
+                              style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                              d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210"></path>
+                      </g>
+                  </g>
+                  <g id="Dots7" class="dots-nav">
+                      <g>
+                          <path class="dotsst dotsfill7" style="fill: rgb(0, 146, 255); opacity: 1;"
+                              d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88"></path>
+                      </g>
+                      <g>
+                          <path class="dotsstro7"
+                              style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                              d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88"></path>
+                      </g>
+                  </g>
+              </svg>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-
-
-      <div>
-        <div class="position-relative">
-          <div class="box5 box">
-            <!-- <div class="d-flex justify-content-center align-items-center"></div> -->
-            <img src="/images/galmob5.png" class="position-absolute" id="galmob5" " style="opacity: 0; top:-200px"/>
-
-            <img
-              src="/images/galmob1.png "
-              class="position-absolute mt-5 pt-5"
-              id="galmbo1"
-              style="opacity: 0; right: 0; "
-            />
-            <!-- </div> -->
-            <img
-              src="/images/galmob2.png"
-              class=" position-absolute "
-              id="galmob2"
-              style="opacity: 0; top:-200px ;margin-left: 30rem;"
-            />
-            <img
-              src="/images/galmob3.png"
-              class="position-absolute  "
-              id="galmob3"
-              style="bottom: 0; left:0;opacity: 0;"
-            />
-            <img
-              src="/images/galmob4.png"
-              class="position-absolute "
-              id="galmob4"
-              style="bottom: 0;opacity: 0; margin-left: 40rem;"
-            />
-
+      <div class="col6">
+        <div>
+          <div class="position-relative">
+            <div class="box2 box" onclick="handlesubmit()">
+              <img
+                src="/images/nexgtv1.png "
+                class="position-absolute "
+                id="nexgtv1"
+                style="opacity: 0; height: 70rem; margin-left: 65rem;"
+              />
+              <img src="/images/nexgtv2.png" class="position-absolute"
+              id="nexgtv2" style="right: 0; opacity: 0; height: 70rem; margin-left: 65rem;">
+            </div>
           </div>
         </div>
-      </div>
-
-
-
-
-      <div>
-        <div class="position-relative">
-          <div class="box6 box" onclick="handlesubmit()">
-            <img
-              src="/images/erp.png "
-              class="position-absolute "
-              id="erp"
-              style="opacity: 0; height: 70rem; ;"
-            />
-           
+  
+        <div>
+          <div class="position-relative">
+            <div class="box4 box" onclick="handlesubmit()">
+              <img
+                src="/images/blockchain1.png "
+                class="position-absolute "
+                id="blockchain1"
+                style="opacity: 0; bottom: 0; margin-left: 80rem; height: 40rem; "
+              />
+              <img src="/images/blockchain2.png" class="position-absolute"
+              id="blockchain2" style="right: 0; opacity: 0; height: 40rem; margin-left: 65rem;">
+            </div>
           </div>
         </div>
-      </div>
-
-      <div>
-        <div class="position-relative">
-          <div class="box7 box" onclick="handlesubmit()">
-            <img
-              src="/images/melto1.png "
-              class="position-absolute top-50 "
-              id="melto1"
-              style="opacity: 0;bottom:0; height: 70rem; ;"
-            />
-            <img
-            src="/images/melto2.png "
-            class="position-absolute top-50"
-            id="melto2"
-            style="opacity: 0;bottom:0; height: 70rem; margin-left: 40rem;"
-          />
+  
+        <div>
+          <div class="position-relative">
+            <div class="box1 box" onclick="handlesubmit()">
+              <img
+                src="/images/nasafitness.png "
+                class="position-absolute "
+                id="nasafitness1"
+                style="opacity: 0; height: 70rem; margin-left: 70rem;"
+              />
+              <img src="/images/nasafigure.png" class="position-absolute"
+              id="nasafitness2" style="right: 0; opacity: 0; height: 60rem;">
+            </div>
           </div>
         </div>
+  
+  
+  
+         <div>
+          <div class="position-relative">
+            <div class="box3 box">
+              <img
+                src="/images/dombox.png "
+                class="position-absolute"
+                id="dombox"
+                style="opacity: 0;margin-left: 50rem;"
+              />
+              <img
+                src="/images/bun1.png"
+                class="me-5 pe-5 position-absolute"
+                id="bun1"
+                style="right: 0;opacity: 0;"
+              />
+              <img
+                src="/images/bun2.png"
+                class="position-absolute mb-5 pb-5 "
+                id="bun2"
+                style="bottom: 0; right: 0;opacity: 0;"
+              />
+              <img
+                src="/images/dommob1.png"
+                class="position-absolute ms-5 ps-5"
+                id="dommob1"
+                style="bottom: 0;opacity: 0; height: 30rem; margin-left: 60rem;"
+              />
+              <div class="d-flex justify-content-center align-items-center">
+                <img src="/images/dombox2.png" class="" id="dommob2" " style="opacity: 0; margin-top: 20rem; margin-left: 60rem; height: 40rem;">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+        <div>
+          <div class="position-relative">
+            <div class="box5 box">
+              <img src="/images/galmob5.png" class="position-absolute" id="galmob5" " style="opacity: 0; top:-200px;margin-left: 60rem;height: 40rem;"/>
+  
+              <img
+                src="/images/galmob1.png "
+                class="position-absolute mt-5 pt-5"
+                id="galmbo1"
+                style="opacity: 0; right: 0; height: 40rem;"
+              />
+              <img
+                src="/images/galmob2.png"
+                class=" position-absolute "
+                id="galmob2"
+                style="opacity: 0; top:-180px ;margin-left: 90rem; height: 40rem;"
+              />
+              <img
+                src="/images/galmob3.png"
+                class="position-absolute  "
+                id="galmob3"
+                style="bottom: 0; left:0;opacity: 0; margin-left: 90rem; height: 40rem;"
+              />
+              <img
+                src="/images/galmob4.png"
+                class="position-absolute "
+                id="galmob4"
+                style="bottom: 0;opacity: 0; margin-left: 60rem;height: 40rem ;"
+              />
+  
+            </div>
+          </div>
+        </div>
+  
+  
+  
+  
+        <div>
+          <div class="position-relative">
+            <div class="box6 box" onclick="handlesubmit()">
+              <img
+                src="/images/erp.png "
+                class="position-absolute "
+                id="erp"
+                style="opacity: 0; height: 40rem; margin-left: 80rem ;"
+              />
+             
+            </div>
+          </div>
+        </div>
+  
+        <div>
+          <div class="position-relative">
+            <div class="box7 box" onclick="handlesubmit()">
+              <img
+                src="/images/melto1.png "
+                class="position-absolute top-50 "
+                id="melto1"
+                style="opacity: 0;bottom:0; height: 60rem;margin-left: 80rem ;"
+              />
+              <img
+              src="/images/melto2.png "
+              class="position-absolute top-50"
+              id="melto2"
+              style="opacity: 0;bottom:0; height: 60rem; margin-left: 100rem;"
+            />
+            </div>
+          </div>
+        </div>
+  
       </div>
-
-
-
-
     </div>
 
-
-    
 
 
     <script
@@ -188,6 +335,11 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
+ 
+
   </body>
 </html>

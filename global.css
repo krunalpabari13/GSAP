@@ -1,48 +1,106 @@
 html{
     font-size: 62.5%;
-    /* overflow-y: hidden; */
+    overflow-x: hidden;
 }
 .box1{
     width: 100vw;
     height: 125vh;
     /* position: absolute; */
-    background-color: blue;
+    background-color: rgb(119, 154, 191);
 }
 .box2{
     /* position: absolute; */
     width: 100vw;
     height: 125vh;
-    background-color: cyan;
+    background-color: rgb(28, 82, 82);
 }
 .box3{
     /* position: absolute; */
     width: 100vw;
     height: 125vh;
-    background-color: green;
+    background-color: rgb(174, 77, 198);
 }
 .box4{
     width: 100vw;
     height: 125vh;
-    background-color: darkblue;
+    background-color: rgb(27, 27, 71);
 }
 .box5{
     width: 100vw;
     height: 125vh;
-    background-color: rgb(88, 88, 168);
+    background-color: rgb(66, 66, 122);
 }
 .box6{
     width: 100vw;
     height: 125vh;
-    background-color: orange;
+    background-color: rgb(130, 108, 66);
 }
 .box7{
     width: 100vw;
     height: 125vh;
-    background-color: maroon;
+    background-color: rgb(207, 141, 141);
 }
 .maincontainer{
     position: absolute;
 }
+.round{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 30rem;
+    background-color: rgb(141, 71, 211);
+}
+#ball1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5rem;
+    background-color: whitesmoke;
+    visibility: hidden;
+}
+.leftpanel
+{
+    height: 100vh;
+    width: 50vw;
+    background-color: rgb(50, 29, 70);
+}
+#text1{
+    font-size: 4rem;
+    color: white;
+    visibility: hidden;
+}
+#text2
+{
+    font-size: 4rem;
+    color: white;
+    visibility: hidden;
+}
+#text3{
+    font-size: 4rem;
+    color: white;
+    visibility: hidden;
+
+}
+#text4{
+    font-size: 4rem;
+    color: white;
+    visibility: hidden;
+}
+#text5
+{
+    font-size: 4rem;
+    color: white;
+    visibility: hidden;
+}
+#text6{
+    font-size: 4rem;
+    color: white;
+    visibility: hidden;
+}
+#text7{
+    font-size: 4rem;
+    color: white;
+    visibility: hidden;
+}
+
 @media only screen and(max-width:1400)
 {   html{
     font-size: 62.5%;
